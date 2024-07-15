@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border: none;
+    
+    text-decoration: none;
+    transition: 0.2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding: 6rem;
+    overflow-x: hidden;
+}
+
+
+body{
+    background-image: url(/GossipMaster/images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 5rem;
+    color: white;
+}
+
+.all-gossips {
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    /* padding: 5rem 20rem 30rem 20rem; */
+    border-radius: 3rem; /* Optional: rounded corners */
+    z-index: 999;
+    max-width: 70rem; /* Ensure the gossips section doesn't exceed 30rem width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(50%);
+}
+.all-gossips img{
+    height: 100%; /* Make the image fit the container */
+    width: auto;
+    max-height: 80rem;
+    max-width: 100rem;
+    border-radius: 3rem;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 5rem;
+}
